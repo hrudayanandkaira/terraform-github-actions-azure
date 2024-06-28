@@ -18,12 +18,13 @@ terraform {
 }
 
 provider "azurerm" {
-  client_id      = env.ARM_CLIENT_ID
-  client_secret = env.ARM_CLIENT_SECRET
-  tenant_id      = env.ARM_TENANT_ID
-  subscription_id = env.ARM_SUBSCRIPTION_ID
+  use_azurecli = true
+  #client_id      = env.ARM_CLIENT_ID
+  #client_secret = env.ARM_CLIENT_SECRET
+  #tenant_id      = env.ARM_TENANT_ID
+  #subscription_id = env.ARM_SUBSCRIPTION_ID
   features {}
-  use_oidc = true
+  #use_oidc = true
 }
 
 # Define any Azure resources to be created here. A simple resource group is shown here as a minimal example.
