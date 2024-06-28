@@ -31,7 +31,7 @@ provider "azurerm" {
   tenant_id       = "9f2a5891-22b8-4308-92fa-fdef45ffb338"
   subscription_id = "e520db69-a509-4dbf-9480-fa7a46560ac1"
   features {}
- # use_oidc = true
+  use_oidc = true
 }
 
 # Define any Azure resources to be created here. A simple resource group is shown here as a minimal example.
