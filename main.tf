@@ -20,7 +20,7 @@ terraform {
 provider "azurerm" {
   #ARM_CLIENT_ID = "${{ secrets.AZURE_CLIENT_ID }}"
   #ARM_SUBSCRIPTION_ID = "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
- # ARM_TENANT_ID = "${{ secrets.AZURE_TENANT_ID }}"
+  ARM_TENANT_ID = "9f2a5891-22b8-4308-92fa-fdef45ffb338" #"${{ secrets.AZURE_TENANT_ID }}"
 
   features {}
   use_oidc = true
