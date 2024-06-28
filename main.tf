@@ -7,16 +7,14 @@ terraform {
   }
 
   # Update this block with the location of your terraform state file
-/*
    backend "azurerm" {
     resource_group_name  = "azureautomation-rg"
     storage_account_name = "tfstorageaccx"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
-    use_oidc             = true
+   # use_oidc             = true
   }
 }
-*/
 
 provider "azurerm" {
   features {}
