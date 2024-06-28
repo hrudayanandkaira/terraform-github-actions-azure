@@ -19,6 +19,7 @@ terraform {
 
 provider "azurerm" {
 #version = "2.34.0"
+ tenant_id = "${ARM_TENANT_ID}"
   #use_azurecli = true
   #client_id      = env.ARM_CLIENT_ID
   #client_secret = env.ARM_CLIENT_SECRET
