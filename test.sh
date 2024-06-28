@@ -1,0 +1,1 @@
+export ARM_USE_AZURECLI=true
