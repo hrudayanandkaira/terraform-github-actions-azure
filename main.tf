@@ -12,7 +12,7 @@ terraform {
     storage_account_name = "tfstorageaccx"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
-   use_oidc             = true
+    use_oidc             = true
   }
 }
 
