@@ -24,7 +24,7 @@ provider "azurerm" {
   #ARM_CLIENT_SECRET  = "${secrets.ARM_CLIENT_SECRET}"
   #client_id       = "c586ee23-af11-497c-8b73-22e8b785dda5"
   #client_secret   = ""
-  client_secret= "${secrets.ARM_CLIENT_SECRET}"
+  client_secret= "${ARM_CLIENT_SECRET}"
   #subscription_id = "e520db69-a509-4dbf-9480-fa7a46560ac1"
    client_id       = "c586ee23-af11-497c-8b73-22e8b785dda5"
   ###client_secret   = ""
