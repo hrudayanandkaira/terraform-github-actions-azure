@@ -18,10 +18,10 @@ terraform {
 }
 
 provider "azurerm" {
-  ARM_CLIENT_ID =  "${{secrets.AZURE_CLIENT_ID}}"
-  ARM_SUBSCRIPTION_ID = "${{secrets.AZURE_SUBSCRIPTION_ID}}"
-  ARM_TENANT_ID  = "${{secrets.AZURE_TENANT_ID}}"
-  ARM_CLIENT_SECRET  = "${{secrets.AZURE_CLIENT_SECRET}}"
+  ARM_CLIENT_ID =  "${{secrets.ARM_CLIENT_ID}}"
+  ARM_SUBSCRIPTION_ID = "${{secrets.ARM_SUBSCRIPTION_ID}}"
+  ARM_TENANT_ID  = "${{secrets.ARM_TENANT_ID}}"
+  ARM_CLIENT_SECRET  = "${{secrets.ARM_CLIENT_SECRET}}"
   #client_id       = "c586ee23-af11-497c-8b73-22e8b785dda5"
   #client_secret   = ""
   #client_secret: "${{secrets.client_secret}}"
