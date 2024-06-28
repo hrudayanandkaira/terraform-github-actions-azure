@@ -23,7 +23,7 @@ provider "azurerm" {
   #client_secret = env.ARM_CLIENT_SECRET
   #tenant_id      = env.ARM_TENANT_ID
   #subscription_id = env.ARM_SUBSCRIPTION_ID
-  features {}
+  #features {}
   #use_oidc = true
 }
 
