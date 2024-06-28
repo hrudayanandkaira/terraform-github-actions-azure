@@ -23,7 +23,7 @@ provider "azurerm" {
   #ARM_TENANT_ID = "9f2a5891-22b8-4308-92fa-fdef45ffb338" #"${{ secrets.AZURE_TENANT_ID }}"
 
   features {}
-  use_oidc = true
+ # use_oidc = true
 }
 
 # Define any Azure resources to be created here. A simple resource group is shown here as a minimal example.
