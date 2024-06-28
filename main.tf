@@ -18,7 +18,7 @@ terraform {
 }
 
 provider "azurerm" {
-version = "2.34.0"
+#version = "2.34.0"
   #use_azurecli = true
   #client_id      = env.ARM_CLIENT_ID
   #client_secret = env.ARM_CLIENT_SECRET
